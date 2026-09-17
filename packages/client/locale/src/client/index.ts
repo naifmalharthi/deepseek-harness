@@ -19,6 +19,7 @@ import {
   type BuiltInLocaleId, type LocaleId, type LocaleSettings,
 } from '../locale-settings.ts'
 import { en, zh, type CommonKey } from '../locales/index.ts'
+import { ar, themeAr, sidebarAr, settingsLocaleAr } from '../locales/ar.ts'
 import {
   en as settingsEn, zh as settingsZh, type SettingsLocaleKey,
 } from '../locales/settings.ts'
@@ -541,6 +542,11 @@ export function apply(ctx: ClientContext): void {
   const locale = new LocaleRuntime(ctx, host)
   locale.register(COMMON_NS, { zh, en })
   locale.register(SETTINGS_NS, { zh: settingsZh, en: settingsEn })
+  locale.addLanguage({ id: 'ar', label: 'العربية', fallback: 'en' })
+  locale.register('approval', 'ar', ar)
+  locale.register('settings.theme', 'ar', themeAr)
+  locale.register('sidebar', 'ar', sidebarAr)
+  locale.register(SETTINGS_NS, 'ar', settingsLocaleAr)
   ctx.provide('locale', locale)
   // The service IS the LocaleFace (bind + getSnapshot/subscribe): install it
   // so the render machinery can synthesize the `t` standard seat.

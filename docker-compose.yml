@@ -1,0 +1,29 @@
+services:
+  dsh-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dsh-web-arabic:latest
+    container_name: dsh-web
+    ports:
+      - "3081:3080"
+    environment:
+      DSH_HOME: /home/node/.dsh
+      # أي قيمة لاتينية غير فارغة تكفي — Ollama لا يتحقق منها
+      OLLAMA_API_KEY: ${OLLAMA_API_KEY:-ollama-local}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - dsh_home:/home/node/.dsh
+    healthcheck:
+      # node متوفر في الصورة — لا حاجة لتثبيت curl
+      # (رد 401 = الخادم حيّ؛ الخطأ = ميت)
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3080/',{method:'HEAD'}).then(()=>process.exit(0),()=>process.exit(1))\""]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
+
+volumes:
+  dsh_home:

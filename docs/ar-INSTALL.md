@@ -24,11 +24,13 @@
 
 ## التثبيت عبر Docker (المسار الموصى به)
 
-### 1) احصل على الكود
+### 1) احصل على الكود (النسخة المستقرة 1.0)
 ```bash
-git clone https://github.com/naifmalharthi/deepseek-harness
+git clone --branch ar-docs-v1.0.0 --depth 1 https://github.com/naifmalharthi/deepseek-harness
 cd deepseek-harness
 ```
+> `--branch ar-docs-v1.0.0` — تثبيت على الإصدار 1.0 (tag ثابت، لا يتحرك مع `master`).
+> `--depth 1` — نسخ أقصر وأسرع (أحدث commit فقط).
 
 ### 2) ابنِ وشغّل
 ```bash

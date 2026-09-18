@@ -36,7 +36,7 @@ DeepSeek Harness (`dsh`) هو بنية تشغيل مفتوحة المصدر لو
 ## التثبيت السريع
 
 ```bash
-git clone https://github.com/naifmalharthi/deepseek-harness
+git clone --branch ar-docs-v1.0.0 --depth 1 https://github.com/naifmalharthi/deepseek-harness
 cd deepseek-harness
 docker compose up -d --build
 docker logs dsh-web 2>&1 | grep -oE 'token=[A-Za-z0-9_-]+' | head -1

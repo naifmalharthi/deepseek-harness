@@ -1,7 +1,7 @@
 # دليل التثبيت والإعداد — DSH-Arabic
 
 > هذه نسخة fork غير رسمية من [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
-> (التوثيق الكامل بالعربية يبدأ من [README-AR.md](../README-AR.md)).
+> (التوثيق الكامل بالعربية يبدأ من [README.ar.md](../README.ar.md)).
 
 ## ما سيتوفر بعد التثبيت
 

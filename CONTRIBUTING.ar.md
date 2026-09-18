@@ -1,6 +1,6 @@
 # المساهمة — DSH-Arabic (fork)
 
-> [README-AR.md](README-AR.md) هي بوابة الدخول. هذا الملف يخص **هذا الـ fork فقط**.
+> [README.ar.md](README.ar.md) هي بوابة الدخول. هذا الملف يخص **هذا الـ fork فقط**.
 
 ## ما يقبله هذا الـ fork
 

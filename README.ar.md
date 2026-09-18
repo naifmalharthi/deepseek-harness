@@ -1,4 +1,5 @@
 # DeepSeek Harness — النسخة العربية (DSH-Arabic)
+[English](README.md) | [中文](README.zh.md) | **العربية**
 
 [![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Node 24](https://img.shields.io/badge/Node.js-24-blue.svg)](https://nodejs.org)
@@ -19,7 +20,7 @@ DeepSeek Harness (`dsh`) هو بنية تشغيل مفتوحة المصدر لو
 |--------|-------|-----------|
 | التعريب | en + zh | **ar** — حزمة 45 وحدة (43 namespace) |
 | Docker | غير متوفر | `Dockerfile` متعدد المراحل + `docker-compose.yml` |
-| التوثيق العربي | — | `README-AR.md` + `docs/ar-*.md` |
+| التوثيق العربي | — | `README.ar.md` + `docs/ar-*.md` |
 | التهيئة الأولية | من الصفر | Ollama + 3 نماذج جاهزة + اللغة العربية |
 
 ## المتطلبات

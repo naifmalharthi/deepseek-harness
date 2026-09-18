@@ -1,7 +1,7 @@
 # التكوين — DSH-Arabic
 
 > جزء من التوثيق العربي لـ fork غير رسمي من [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
-> نقطة البداية: [README-AR.md](../README-AR.md)
+> نقطة البداية: [README.ar.md](../README.ar.md)
 
 ## أين تُحفظ الإعدادات؟
 

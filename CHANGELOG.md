@@ -15,7 +15,7 @@
   (commit `c7364ffce1` — `feat(docker): add multi-stage image for DSH web UI`)
 - **تكوين Docker**: `docker-compose.yml` (volume `dsh_home`، healthcheck بـ node،
   `OLLAMA_API_KEY`).
-- **توثيق عربي كامل**: `README-AR.md` + `docs/ar-INSTALL.md` +
+- **توثيق عربي كامل**: `README.ar.md` + `docs/ar-INSTALL.md` +
   `docs/ar-CONFIGURATION.md` + `docs/ar-TROUBLESHOOTING.md` +
   `docs/ar-ARCHITECTURE.md` + `CONTRIBUTING.ar.md` + `CHANGELOG.md`.
   (commit `fba0117d85` — `docs: add Arabic README documenting Docker + locale setup` + هذه الدفعة)

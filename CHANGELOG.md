@@ -19,6 +19,9 @@
   `docs/ar-CONFIGURATION.md` + `docs/ar-TROUBLESHOOTING.md` +
   `docs/ar-ARCHITECTURE.md` + `CONTRIBUTING.ar.md` + `CHANGELOG.md`.
   (commit `fba0117d85` — `docs: add Arabic README documenting Docker + locale setup` + هذه الدفعة)
+- **لقطات شاشة عربية** (5 صور) موثّقة داخل `README.ar.md` و`docs/ar-CONFIGURATION.md`:
+  شاشة المحادثة + تبويبات الإعدادات (عام، النماذج، الوكيل المسبقة، الإضافات).
+  صور `docs/ar-*.png`.
 
 ### الإصلاحات (Fixed)
 - **توحيد المنفذ + عزل شبكة Docker**: المنفذ `3080 → 3080`، والشبكة

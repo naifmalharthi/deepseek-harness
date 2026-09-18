@@ -9,7 +9,7 @@
 > **⚠️ نسخة fork غير رسمية (unofficial)** من [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
 > هذا المستودع لا ينشره DeepSeek AI ولا يديره. الترخيص الأصلي MIT محفوظ كما هو.
 
-<!-- ضع لقطة الشاشة هنا عند توفرها: docs/ar-screenshot.png -->
+![واجهة DSH بالعربية — شاشة المحادثة الرئيسية](docs/ar-ui-chat.png)
 
 ## نظرة عامة
 

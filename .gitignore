@@ -47,3 +47,7 @@ worktrees/
 .agents/worktrees/
 .typert-*/
 native/system/test/bin/
+
+# DSH local overrides (naif fork)
+docker-compose.yml.bak-*
+dsh-home/
